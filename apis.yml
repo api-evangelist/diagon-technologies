@@ -1,20 +1,48 @@
 aid: diagon-technologies
 name: Diagon Technologies
-description: Diagon Technologies is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Diagon Technologies operates Albus, an industrial equipment intelligence and
+  procurement platform for North American manufacturing. Albus aggregates
+  millions of industrial equipment listings so buyers can search by make, model,
+  or specification, compare equipment specs, pricing, and availability side by
+  side, and connect directly with sellers to request quotes. Sellers publish
+  AI-powered catalogs, reach qualified buyer demand, and see live equipment
+  searches in real time across categories such as subtractive manufacturing,
+  forming, joining, surface treatment, and polymer processing, and OEMs
+  including DMG Mori, Trumpf, Okuma, FANUC, and Mazak. Diagon is a Techstars
+  portfolio company; this profile is maintained in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/diagon-technologies/refs/heads/main/apis.yml
 x-type: company
+x-brand: Albus
 x-source: vc-portfolio
 x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://diagon.ai/opengraph-image.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Manufacturing
+- Industrial Equipment
+- Procurement
+- Marketplace
+- Equipment Search
+- Supply Chain
+- Machinery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://diagon.ai/
+- type: Blog
+  url: https://diagon.ai/blog
+- type: Support
+  url: https://diagon.ai/contact-us
+- type: SignUp
+  url: https://diagon.ai/sign-up
+- type: TermsOfService
+  url: https://diagon.ai/terms
+- type: PrivacyPolicy
+  url: https://diagon.ai/privacy-policy
+- type: LLMsTxt
+  url: llms/diagon-technologies-llms.txt
+- type: DomainSecurity
+  url: security/diagon-technologies-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
